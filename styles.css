@@ -1,0 +1,71 @@
+/* IMPORT FONT */
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  color: rgb(209, 53, 53);
+  font-family: "Amatic SC", cursive;
+  font-size: 25px;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid rgb(209, 53, 53);
+}
+
+.nav__logo {
+  margin-left: 7%;
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.heading {
+  text-transform: lowercase;
+}
+
+.heading__image {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.recipe__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid rgb(209, 53, 53);
+  border-bottom: 1px solid rgb(209, 53, 53);
+}
+.recipes__link {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+.recipes__link-item {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.home-link {
+  font-weight: bold;
+}

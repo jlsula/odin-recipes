@@ -4,14 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Odin Recipes</title>
   </head>
   <body>
-    <h1>Hot Recipes!</h1>
-    <ul>
-      <li><a href="./recipes/paella.html">Paella</a></li>
-      <li><a href="./recipes/ribs.html">Ribs</a></li>
-      <li><a href="./recipes/pork.html">Pork Chops</a></li>
-    </ul>
+    <div class="nav">
+      <h4 class="nav__logo">Yum!</h4>
+      <a class="home-link" href="../index.html">Home</a>
+    </div>
+    <h1 class="heading">Hot Recipes</h1>
+    <img
+      class="heading__image"
+      src="https://images.cdn.kodinkuvalehti.fi/AZZKUU7fqjvsKPSNviZVFy7rc0w=/890x0/smart/kodinkuvalehti.fi/s3fs-public/main_media/1347270199_original_chili.jpg?itok=KOWvT6Hj"
+      alt=""
+    />
+    <p class="intro__text">Some of the finest recipes of the world!</p>
+
+    <div class="recipe__container">
+      <ul class="recipes__link">
+        <li class="recipes__link-item">
+          <a href="./recipes/paella.html">Paella</a>
+        </li>
+        <li class="recipes__link-item">
+          <a href="./recipes/ribs.html">Ribs</a>
+        </li>
+        <li class="recipes__link-item">
+          <a href="./recipes/pork.html">Pork Chops</a>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>
